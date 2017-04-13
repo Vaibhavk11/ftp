@@ -8,7 +8,14 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+
+    __weak IBOutlet UITextField *userName;
+
+    __weak IBOutlet UITextField *password;
+
+
+}
 
 @end
 
@@ -17,6 +24,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)getDirectoryAction:(UIButton *)sender {
+}
+- (IBAction)downloadFileAction:(UIButton *)sender {
+}
+- (IBAction)uploadFileAction:(UIButton *)sender {
+}
+- (IBAction)deleteFileAction:(UIButton *)sender {
+}
+- (IBAction)deleteDirectoryAction:(UIButton *)sender {
+}
+- (IBAction)createDirectory:(UIButton *)sender {
 }
 
 

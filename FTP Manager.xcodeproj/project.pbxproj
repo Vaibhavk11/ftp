@@ -13,6 +13,7 @@
 		843F1BEB1E88E69400B468CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843F1BE91E88E69400B468CF /* Main.storyboard */; };
 		843F1BED1E88E69400B468CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843F1BEC1E88E69400B468CF /* Assets.xcassets */; };
 		843F1BF01E88E69400B468CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843F1BEE1E88E69400B468CF /* LaunchScreen.storyboard */; };
+		843F1BF91E88E9F800B468CF /* VKFTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F1BF81E88E9F800B468CF /* VKFTPManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		843F1BEC1E88E69400B468CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843F1BEF1E88E69400B468CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843F1BF11E88E69500B468CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843F1BF71E88E9F800B468CF /* VKFTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFTPManager.h; sourceTree = "<group>"; };
+		843F1BF81E88E9F800B468CF /* VKFTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFTPManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				843F1BE61E88E69400B468CF /* ViewController.h */,
 				843F1BE71E88E69400B468CF /* ViewController.m */,
 				843F1BE91E88E69400B468CF /* Main.storyboard */,
+				843F1BF71E88E9F800B468CF /* VKFTPManager.h */,
+				843F1BF81E88E9F800B468CF /* VKFTPManager.m */,
 				843F1BEC1E88E69400B468CF /* Assets.xcassets */,
 				843F1BEE1E88E69400B468CF /* LaunchScreen.storyboard */,
 				843F1BF11E88E69500B468CF /* Info.plist */,
@@ -153,6 +158,7 @@
 				843F1BE81E88E69400B468CF /* ViewController.m in Sources */,
 				843F1BE51E88E69400B468CF /* AppDelegate.m in Sources */,
 				843F1BE21E88E69400B468CF /* main.m in Sources */,
+				843F1BF91E88E9F800B468CF /* VKFTPManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
